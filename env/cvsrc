@@ -1,0 +1,5 @@
+cvs -q -d anoncvs@mirror.osn.de:/cvs
+diff -uNp
+update -Pd -r OPENBSD_5_9
+checkout -P -r OPENBSD_5_9
+rdiff -u

@@ -1,0 +1,11 @@
+config {
+    hostname mirror.osn.de
+    # If your network link is a T1 or faster, comment out the following line.
+    # compress
+    collection {
+        name openbsd
+        release rcs
+        prefix /home/cvs
+    }
+}
+

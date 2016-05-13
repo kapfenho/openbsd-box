@@ -1,0 +1,9 @@
+cd /usr/src/usr.sbin/ikectl
+patch -i </home/horst/openbsd-box/patches/5.8/ikectl/ikectl58.patch
+
+cd /usr/src/usr.sbin/ikectl
+make obj
+make depend
+make
+make install
+
